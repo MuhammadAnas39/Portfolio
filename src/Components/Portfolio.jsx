@@ -1,28 +1,35 @@
 import React from "react";
 import firstOne from "../assets/btc.png";
 import me from "../assets/me.jpg";
+import crypto from "../assets/crypto.jpg";
+import movie from "../assets/movie.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: firstOne,
+      src: crypto,
+      link: "https://my-crypto-app-kappa.vercel.app/",
     },
     {
       id: 2,
-      src: me,
+      src: movie,
+      link: "https://newmoviesapp.netlify.app/",
     },
     {
       id: 3,
       src: firstOne,
+      link: "",
     },
     {
       id: 4,
       src: me,
+      link: "",
     },
     {
       id: 5,
       src: firstOne,
+      link: "",
     },
     {
       id: 6,
@@ -43,7 +50,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm-grid-cols-2 md:grid-cols-3 gap-8 px-10 md:px-0">
-          {portfolios.map(({ src, id }) => (
+          {portfolios.map(({ src, id, link }) => (
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 "
@@ -51,7 +58,7 @@ const Portfolio = () => {
               <img src={src} alt="portfolios" className="rounded-t-lg" />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md font-bold">
-                  <a href="https://github.com/CodingWithAnas1/My-Crypto-app">
+                  <a href={link} target="blank">
                     Demo
                   </a>
                 </button>

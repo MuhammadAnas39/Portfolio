@@ -30,6 +30,9 @@ const About = () => {
           error, eos officiis vel dicta eaque aliquid laboriosam mollitia
           maxime. Ea saepe animi perferendis.
         </p>
+        <div>
+          <p>fsdafsda</p>
+        </div>
       </div>
     </div>
   );
