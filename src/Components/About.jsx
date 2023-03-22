@@ -14,25 +14,13 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde
-          explicabo adipisci nihil dolor et iusto, ratione cum accusantium
-          accusamus at maiores eum quaerat! Laudantium eius autem magni aperiam
-          laboriosam officia quidem optio nemo veniam ad omnis, rerum tempore
-          atque facere sunt mollitia itaque tempora incidunt eveniet. Tenetur,
-          quaerat at?
+          I'm a self-taught Mern Stack developer from Pakistan. I build websites
+          with a focus on providing the experience for everyone using them and
+          responsiveness. Curious to learn more about developing scalable
+          distribution systems, love problem solving, and care about writing and
+          maintainable code. A responsive design makes your website accessible
+          to all users, regardless of their devices.
         </p>
-        <br />
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nulla
-          dolorem voluptatem vitae, explicabo possimus pariatur incidunt hic
-          consectetur ab quis labore voluptas harum reprehenderit reiciendis. Ex
-          quo quia aspernatur minus quisquam cupiditate illum possimus ducimus
-          error, eos officiis vel dicta eaque aliquid laboriosam mollitia
-          maxime. Ea saepe animi perferendis.
-        </p>
-        <div>
-          <p>fsdafsda</p>
-        </div>
       </div>
     </div>
   );

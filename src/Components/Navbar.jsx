@@ -43,6 +43,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4  text-gray-500 md:hidden"

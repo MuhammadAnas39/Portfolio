@@ -69,7 +69,13 @@ const Footer = () => {
           <p className="text-2xl">Follow Us</p>
           <div className="flex gap-4 ">
             {footer.map((e) => (
-              <a key={e.id} href={e.link} target="_blank" rel="noreferrer">
+              <a
+                key={e.id}
+                href={e.link}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-white"
+              >
                 {e.icons}
               </a>
             ))}
