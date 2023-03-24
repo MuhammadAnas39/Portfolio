@@ -1,6 +1,4 @@
 import React from "react";
-import firstOne from "../assets/btc.png";
-import me from "../assets/me.jpg";
 import crypto from "../assets/crypto.jpg";
 import movie from "../assets/movie.jpg";
 import image from "../assets/image.jpg";
@@ -47,17 +45,22 @@ const Portfolio = () => {
             >
               <img src={src} alt="portfolios" className="rounded-t-lg" />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md font-bold">
-                  <a href={link} target="blank">
-                    Demo
-                  </a>
-                </button>
-
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border-blue-500 border-2 rounded-md font-bold">
-                  <a href={code} target="_blank" rel="noreferrer">
-                    Code
-                  </a>
-                </button>
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md font-bold"
+                >
+                  <button className="w-full">Demo</button>
+                </a>
+                <a
+                  href={code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border-blue-500 border-2 rounded-md font-bold"
+                >
+                  <button className="w-full">Code</button>
+                </a>
               </div>
             </div>
           ))}
