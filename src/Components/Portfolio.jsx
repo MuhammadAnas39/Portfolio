@@ -17,29 +17,13 @@ const Portfolio = () => {
       id: 2,
       src: movie,
       link: "https://newmoviesapp.netlify.app/",
-      code: "",
+      code: "https://github.com/CodingWithAnas1/Movie-app",
     },
     {
       id: 3,
       src: image,
       link: "https://find-photos.netlify.app/",
       code: "https://github.com/CodingWithAnas1/Image-Finder",
-    },
-    {
-      id: 4,
-      src: me,
-      link: "",
-      code: "",
-    },
-    {
-      id: 5,
-      src: firstOne,
-      link: "",
-      code: "",
-    },
-    {
-      id: 6,
-      src: me,
     },
   ];
   return (
