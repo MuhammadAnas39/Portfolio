@@ -3,6 +3,7 @@ import firstOne from "../assets/btc.png";
 import me from "../assets/me.jpg";
 import crypto from "../assets/crypto.jpg";
 import movie from "../assets/movie.jpg";
+import image from "../assets/image.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -10,26 +11,31 @@ const Portfolio = () => {
       id: 1,
       src: crypto,
       link: "https://my-crypto-app-kappa.vercel.app/",
+      code: "https://github.com/CodingWithAnas1/My-Crypto-app",
     },
     {
       id: 2,
       src: movie,
       link: "https://newmoviesapp.netlify.app/",
+      code: "",
     },
     {
       id: 3,
-      src: firstOne,
-      link: "",
+      src: image,
+      link: "https://find-photos.netlify.app/",
+      code: "https://github.com/CodingWithAnas1/Image-Finder",
     },
     {
       id: 4,
       src: me,
       link: "",
+      code: "",
     },
     {
       id: 5,
       src: firstOne,
       link: "",
+      code: "",
     },
     {
       id: 6,
@@ -50,7 +56,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm-grid-cols-2 md:grid-cols-3 gap-8 px-10 md:px-0">
-          {portfolios.map(({ src, id, link }) => (
+          {portfolios.map(({ src, id, link, code }) => (
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 "
@@ -64,10 +70,7 @@ const Portfolio = () => {
                 </button>
 
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 border-blue-500 border-2 rounded-md font-bold">
-                  <a
-                    href="https://my-crypto-app-kappa.vercel.app/"
-                    target="blank"
-                  >
+                  <a href={code} target="_blank" rel="noreferrer">
                     Code
                   </a>
                 </button>
