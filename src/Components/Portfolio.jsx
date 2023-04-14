@@ -2,6 +2,7 @@ import React from "react";
 import crypto from "../assets/crypto.jpg";
 import movie from "../assets/movie.jpg";
 import image from "../assets/image.jpg";
+import amazon from "../assets/amazon.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,6 +23,12 @@ const Portfolio = () => {
       src: image,
       link: "https://find-photos.netlify.app/",
       code: "https://github.com/CodingWithAnas1/Image-Finder",
+    },
+    {
+      id: 4,
+      src: amazon,
+      link: "https://amazon-clone-beryl-phi.vercel.app/",
+      code: "https://github.com/CodingWithAnas1/Amazon-clone",
     },
   ];
   return (
