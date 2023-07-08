@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+// import resume from "../assets/"
 const SocialLinks = () => {
   const links = [
     {
@@ -11,7 +12,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/CodingWithAnas1",
+      href: "https://github.com/MuhammadAnas39",
       style: "rounded-tr-md",
     },
 
@@ -40,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "resume.pdf",
+      href: "../assets/resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
