@@ -3,6 +3,7 @@ import crypto from "../assets/crypto.jpg";
 import movie from "../assets/movie.jpg";
 import image from "../assets/image.jpg";
 import amazon from "../assets/amazon.jpg";
+import ecommerce from "../assets/ecommerce.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,18 +15,24 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: ecommerce,
+      link: "https://smiling-cap-worm.cyclic.cloud/",
+      code: "https://github.com/MuhammadAnas39/Ecommerce",
+    },
+    {
+      id: 3,
       src: movie,
       link: "https://newmoviesapp.netlify.app/",
       code: "https://github.com/CodingWithAnas1/Movie-app",
     },
     {
-      id: 3,
+      id: 4,
       src: image,
       link: "https://find-photos.netlify.app/",
       code: "https://github.com/CodingWithAnas1/Image-Finder",
     },
     {
-      id: 4,
+      id: 5,
       src: amazon,
       link: "https://amazon-clone-beryl-phi.vercel.app/",
       code: "https://github.com/CodingWithAnas1/Amazon-clone",
