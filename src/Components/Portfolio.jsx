@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: newEcommerce,
-      link: "https://2023-mern-ecommerce-project-final.vercel.app/",
+      link: "https://2023-mern-ecommerce-project.vercel.app/",
       code: "https://github.com/MuhammadAnas39/2023-Mern-Ecommerce-Project",
     },
     {
