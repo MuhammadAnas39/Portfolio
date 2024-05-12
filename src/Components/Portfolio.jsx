@@ -4,6 +4,7 @@ import movie from "../assets/movie.jpg";
 import image from "../assets/image.jpg";
 import amazon from "../assets/amazon.jpg";
 import newEcommerce from "../assets/111.jpg";
+import LandingPage from "../assets/landingPage.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -11,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: crypto,
       link: "https://my-crypto-app-kappa.vercel.app/",
-      code: "https://github.com/CodingWithAnas1/My-Crypto-app",
+      code: "https://github.com/MuhammadAnas39/My-Crypto-app",
     },
     {
       id: 2,
@@ -23,19 +24,25 @@ const Portfolio = () => {
       id: 3,
       src: movie,
       link: "https://newmoviesapp.netlify.app/",
-      code: "https://github.com/CodingWithAnas1/Movie-app",
+      code: "https://github.com/MuhammadAnas39/Movie-app",
     },
     {
       id: 4,
       src: image,
       link: "https://find-photos.netlify.app/",
-      code: "https://github.com/CodingWithAnas1/Image-Finder",
+      code: "https://github.com/MuhammadAnas39/Image-Finder",
     },
     {
       id: 5,
       src: amazon,
       link: "https://amazon-clone-beryl-phi.vercel.app/",
-      code: "https://github.com/CodingWithAnas1/Amazon-clone",
+      code: "https://github.com/MuhammadAnas39/Amazon-clone",
+    },
+    {
+      id: 6,
+      src: LandingPage,
+      link: "https://client-landing-page-ebon.vercel.app/",
+      code: "https://github.com/MuhammadAnas39/Client-Landing-Page",
     },
   ];
   return (
